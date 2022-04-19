@@ -26,8 +26,6 @@ function functioning() {
     //
     if(main.length > 200 ){
         main = main.substring(0,200);
-        //200자가 넘어도 계속 써지긴 함 내가 원하는 그림은 200자가 넘으면 글씨도 안써저야 하는데
-        //200자가 넘으면 글이 안써져야함
         document.getElementById("jasoseol").value = main;
     }
     document.getElementById("count").innerHTML = "(" + main.length +"/200)"
